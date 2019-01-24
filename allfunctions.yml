@@ -1,0 +1,16 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:31112
+functions:
+  dnacsandbox-auth:
+    lang: python3
+    handler: ./dnacsandbox-auth
+    image: shill75/dnacsandbox-auth
+  dnacsandbox-getdevices:
+    lang: python3
+    handler: ./dnacsandbox-getdevices
+    image: shill75/dnacsandbox-getdevices
+  postdeviceuptime:
+    lang: python3
+    handler: ./postdeviceuptime
+    image: shill75/postdeviceuptime
