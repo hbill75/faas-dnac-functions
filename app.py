@@ -2,10 +2,10 @@ import requests
 import json
 
 
-username = "devnetuser"
-password = "Cisco123!"
-webex_teams_token = "MDE3Njk1YTEtNWIxZi00YjMwLWEwMzctODQ5NTIzMWE1ZmMzNTQ3ODJjMWEtZmI5_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f"
-roomId = "Y2lzY29zcGFyazovL3VzL1JPT00vZjhiM2QyZDAtMWY1MC0xMWU5LTg5NGUtYzdkYjJmNjhjZTMw"
+username = ""
+password = ""
+webex_teams_token = ""
+roomId = ""
 
 """
 Get the DNA Center auth token for the user: devnetuser by invoking the
