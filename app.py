@@ -13,7 +13,7 @@ dnacsandbox-auth function.  Send the DNA Center username and password in the
 POST method payload.
 """
 
-authurl = "http://127.0.0.1:31112/function/dnacsandbox-auth"
+authurl = "http://10.10.20.114:31112/function/dnacsandbox-auth"
 userpass = json.dumps({"username": username, "password": password})
 payload = userpass
 headers = {
@@ -30,7 +30,7 @@ Get all of the devices DNA Center knows about using the dnacsandbox-getdevices
 function. Send the returned auth token in the POST method payload.
 """
 
-getdeviceurl = "http://127.0.0.1:31112/function/dnacsandbox-getdevices"
+getdeviceurl = "http://10.10.20.114:31112/function/dnacsandbox-getdevices"
 payload = token.text
 headers = {
     'Content-Type': "application/json"
@@ -65,7 +65,7 @@ Teams developer token in the POST method payload.
 messagePayload = json.dumps({"roomId": roomId,
                              "messageBody": messageBody,
                              "teams_token": webex_teams_token})
-postmessageurl = "http://127.0.0.1:31112/function/postdeviceuptime"
+postmessageurl = "http://10.10.20.114:31112/function/postdeviceuptime"
 
 payload = messagePayload
 headers = {

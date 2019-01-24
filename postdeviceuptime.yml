@@ -1,8 +1,8 @@
 provider:
   name: faas
-  gateway: http://127.0.0.1:31112
+  gateway: http://10.10.20.114:31112
 functions:
   postdeviceuptime:
     lang: python3
     handler: ./postdeviceuptime
-    image: shill75/postdeviceuptime
+    image: postdeviceuptime:latest
