@@ -5,4 +5,4 @@ functions:
   dnacsandbox-auth:
     lang: python3
     handler: ./dnacsandbox-auth
-    image: <your dockerhub username>/dnacsandbox-auth
+    image: <your dockerhub username>/dnacsandbox-auth:latest
