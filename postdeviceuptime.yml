@@ -5,4 +5,4 @@ functions:
   postdeviceuptime:
     lang: python3
     handler: ./postdeviceuptime
-    image: <your dockerhub username>/postdeviceuptime:latest
+    image: <your dockerhub username>/postdeviceuptime

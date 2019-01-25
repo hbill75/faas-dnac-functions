@@ -5,4 +5,4 @@ functions:
   dnacsandbox-getdevices:
     lang: python3
     handler: ./dnacsandbox-getdevices
-    image: <your dockerhub username>/dnacsandbox-getdevices:latest
+    image: <your dockerhub username>/dnacsandbox-getdevices
